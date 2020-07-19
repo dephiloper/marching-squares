@@ -1,0 +1,24 @@
+{
+  "name": "marching-squares",
+  "version": "1.0.0",
+  "description": "simple exercise to create a marching squares visualization",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "start": "parcel serve src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
+    "@types/node": "^14.0.23",
+    "cross-env": "^7.0.2",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  }
+}
